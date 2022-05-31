@@ -1,12 +1,15 @@
 
 import './App.css';
 import React from "react"
+import Navbar from "./components/Navbar"
 
 
 
 
 export default function App() {
   return (
-      <h1>App component</h1>
+    <div>
+    <Navbar />
+</div>
   )
 }
